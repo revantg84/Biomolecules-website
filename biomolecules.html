@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomolecules</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9f9f9;
+        }
+        header {
+            background: #2a9d8f;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #264653;
+        }
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            display: block;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #1e3d3a;
+        }
+        .container {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+            color: #555;
+        }
+        .card {
+            display: inline-block;
+            margin: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card h3 {
+            color: #2a9d8f;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #264653;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Biomolecules Explorer</h1>
+    </header>
+    <nav>
+        <a href="carbohydrates.html">Carbohydrates</a>
+        <a href="proteins.html">Proteins</a>
+        <a href="lipids.html">Lipids</a>
+        <a href="nucleic_acids.html">Nucleic Acids</a>
+    </nav>
+    <div class="container">
+        <h1>Discover the World of Biomolecules</h1>
+        <p>
+            Biomolecules are the building blocks of life. Click on each category below to dive deeper into their structures,
+            functions, and examples.
+        </p>
+        <div class="card">
+            <h3>Carbohydrates</h3>
+            <a href="carbohydrates.html">Learn More →</a>
+        </div>
+        <div class="card">
+            <h3>Proteins</h3>
+            <a href="proteins.html">Learn More →</a>
+        </div>
+        <div class="card">
+            <h3>Lipids</h3>
+            <a href="lipids.html">Learn More →</a>
+        </div>
+        <div class="card">
+            <h3>Nucleic Acids</h3>
+            <a href="nucleic_acids.html">Learn More →</a>
+        </div>
+    </div>
+</body>
+</html>
